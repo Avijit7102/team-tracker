@@ -27,7 +27,7 @@ const TeamDetails = () => {
 
     let description1 = `${team.strStadiumDescription || team.strDescriptionCN || team.strDescriptionEN || team.strDescriptionIT || team.strDescriptionES || team.strDescriptionPT}`;
     let description2 = `${team.strDescriptionCN || team.strDescriptionEN || team.strDescriptionIT || team.strDescriptionES || team.strDescriptionPT}`;
-    
+
     return (
         <div className="detailsPage">
             <div className="team-detailsImg">
@@ -49,10 +49,10 @@ const TeamDetails = () => {
             <br/>
             <p>{description2}</p>
             <div className="logo">
-                <a target="_blank" href={team.strFacebook}><i class="fab fa-facebook fa-3x icon"></i></a>
-                <a target="_blank" href={team.strYoutube}><i class="fab fa-youtube fa-3x icon-youtube"></i></a>
-                <a target="_blank" href={team.strTwitter}><i class="fab fa-twitter fa-3x icon"></i></a>
-                <a target="_blank" href={team.strInstagram}><i class="fab fa-instagram-square fa-3x icon-instagram"></i></a>
+                <a target="_blank" href={team.strFacebook} rel="noreferrer"><i class="fab fa-facebook fa-3x icon"></i></a>
+                <a target="_blank" href={team.strYoutube} rel="noreferrer"><i class="fab fa-youtube fa-3x icon-youtube"></i></a>
+                <a target="_blank" href={team.strTwitter} rel="noreferrer"><i class="fab fa-twitter fa-3x icon"></i></a>
+                <a target="_blank" href={team.strInstagram} rel="noreferrer"><i class="fab fa-instagram-square fa-3x icon-instagram"></i></a>
             </div>
         </div>
     );

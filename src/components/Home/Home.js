@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <div>
             <div className="displayImg img-fluid">
-                <img src={Image}></img>
+                <img src={Image} alt=""></img>
                 <div className="centered"><h2>Team Tracker</h2></div>
             </div>
             
